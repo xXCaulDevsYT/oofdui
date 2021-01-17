@@ -47,6 +47,7 @@ class main extends PluginBase implements Listener {
                         $this->bruhshop($player);
                         return true;
                     }
+            }
 
             break;
             
