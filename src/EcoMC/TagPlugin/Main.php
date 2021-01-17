@@ -42,7 +42,7 @@ class main extends PluginBase implements Listener {
                 case 0;
                     if($player->hasPermission("bruh.tag")){
                         $player->setDisplayName("§7[§l§eBRUH§r§7] §r" . $player->getName());
-                        $player->sendMessage("§l§8(§a!§8) §r§7You have equipped the [§l§eBRUH§r§7] tag!")
+                        $player->sendMessage("§l§8(§a!§8) §r§7You have equipped the [§l§eBRUH§r§7] tag!");
                     } else {
                         $this->bruhshop($player);
                         return true;
